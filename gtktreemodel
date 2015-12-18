@@ -1,0 +1,103 @@
+[?25l[24m[0m[56;1H[97m[41mError detected while processing /home/anhh/.vimrc:[0m
+[38;5;130mline 1827:[0m
+[97m[41mE117: Unknown function: vundle#begin[0m
+[38;5;130mline 1832:[0m
+[97m[41mE492: Not an editor command: Plugin 'gmarik/Vundle.vim'[0m
+[38;5;130mline 1836:[0m
+[97m[41mE492: Not an editor command: Plugin 'tpope/vim-fugitive'[0m
+[38;5;130mline 1838:[0m
+[97m[41mE492: Not an editor command: Plugin 'L9'[0m
+[38;5;130mline 1840:[0m
+[97m[41mE492: Not an editor command: Plugin 'git://git.wincent.com/command-t.git'[0m
+[38;5;130mline 1845:[0m
+[97m[41mE492: Not an editor command: Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}[0m
+[38;5;130mline 1850:[0m
+[97m[41mE492: Not an editor command: Plugin 'davidhalter/jedi-vim'[0m
+[38;5;130mline 1851:[0m
+[97m[41mE492: Not an editor command: Plugin 'pythoncomplete'[0m
+[38;5;130mline 1853:[0m
+[97m[41mE492: Not an editor command: Plugin 'taglist-plus'[0m
+[38;5;130mline 1855:[0m
+[97m[41mE492: Not an editor command: Plugin 'ctrlp.vim'[0m
+[38;5;130mline 1856:[0m
+[97m[41mE492: Not an editor command: Plugin 'The-NERD-tree'[0m
+[38;5;130mline 1857:[0m
+[97m[41mE492: Not an editor command: Plugin 'Syntastic'[0m
+[38;5;130mline 1858:[0m
+[97m[41mE492: Not an editor command: Plugin 'EasyMotion'[0m
+[38;5;130mline 1860:[0m
+[97m[41mE492: Not an editor command: Plugin 'vimwiki'[0m
+[38;5;130mline 1861:[0m
+[97m[41mE492: Not an editor command: Plugin 'pydoc.vim'[0m
+[38;5;130mline 1862:[0m
+[97m[41mE492: Not an editor command: Plugin 'svnvimdiff'[0m
+[38;5;130mline 1863:[0m
+[97m[41mE492: Not an editor command: Plugin 'svn.vim'[0m
+[38;5;130mline 1864:[0m
+[97m[41mE492: Not an editor command: Plugin 'elinks.vim'[0m
+[38;5;130mline 1866:[0m
+[97m[41mE492: Not an editor command: Plugin 'TxtBrowser' [0m
+[38;5;130mline 1867:[0m
+[97m[41mE492: Not an editor command: Plugin 'svncommand.vim'[0m
+[38;5;130mline 1868:[0m
+[97m[41mE492: Not an editor command: Plugin 'webpreview'[0m
+[38;5;130mline 1869:[0m
+[97m[41mE492: Not an editor command: Plugin 'OmniCppComplete'[0m
+[38;5;130mline 1872:[0m
+[97m[41mE117: Unknown function: vundle#end[0m
+[32mPress ENTER or type command to continue[34h[?25h[?1h=[1;56r[34l[34h[?25h[23m[24m[0m[H[J[?25l[56;1H"./doc/Makefile.in" 684L, 20164C(9 of 1759): blist-signals.dox \[1;1H[36mmandir [0m= [35m@mandir@[0m
+[36mmkdir_p [0m= [35m@mkdir_p@[0m
+[36moldincludedir [0m= [35m@oldincludedir@[0m
+[36mpdfdir [0m= [35m@pdfdir@[0m
+[36mperlpath [0m= [35m@perlpath@[0m
+[36mpidginpath [0m= [35m@pidginpath@[0m
+[36mprefix [0m= [35m@prefix@[0m
+[36mprogram_transform_name [0m= [35m@program_transform_name@[0m
+[36mpsdir [0m= [35m@psdir@[0m
+[36msbindir [0m= [35m@sbindir@[0m
+[36msedpath [0m= [35m@sedpath@[0m
+[36msharedstatedir [0m= [35m@sharedstatedir@[0m
+[36msrcdir [0m= [35m@srcdir@[0m
+[36msysconfdir [0m= [35m@sysconfdir@[0m
+[36mtarget_alias [0m= [35m@target_alias@[0m
+[36mtop_build_prefix [0m= [35m@top_build_prefix@[0m
+[36mtop_builddir [0m= [35m@top_builddir@[0m
+[36mtop_srcdir [0m= [35m@top_srcdir@[0m
+[36mman_MANS [0m= [36m$(am__append_1)[0m [36m$(am__append_2)
+EXTRA_DIST [0m= [35m\
+    [0mC-HOWTO.dox [35m\
+    [0mPERL-HOWTO.dox [35m\
+    [0mSIGNAL-HOWTO.dox [35m\
+    [0mTCL-HOWTO.dox [35m\
+    [0mTracFooter.html [35m\
+    [0mTracHeader.html [35m\
+    [0maccount-signals.dox [35m\
+    [0mblist-signals.dox [35m\
+    [0mcertificate-signals.dox [35m\
+    [0mcipher-signals.dox [35m\
+    [0mconnection-signals.dox [35m\
+    [0mconversation-signals.dox [35m\
+    [0mcore-signals.dox [35m\
+    [0mdbus-server-signals.dox [35m\
+    [0mfunniest_home_convos.txt [35m\
+    [0mfinch.1.in [35m\
+    [0mgtkaccount-signals.dox [35m\
+    [0mgtkblist-signals.dox [35m\
+    [0mgtkconv-signals.dox [35m\
+    [0mgtklog-signals.dox [35m\
+    [0mgtkimhtml-signals.dox [35m\
+    [0mgtkrc-2.0 [35m\
+    [0mimgstore-signals.dox [35m\
+    [0mjabber-signals.dox [35m\
+    [0mlog-signals.dox [35m\
+    [0mnotify-signals.dox [35m\
+    [0mpidgin.1.in [35m\
+    [0mplugin-i18n.dox [35m\
+    [0mplugin-ids.dox [35m\
+    [0mplugin-signals.dox [35m\
+    [0msavedstatus-signals.dox [35m\
+    [0msound-signals.dox [35m\
+    [0mthe_penguin.txt [35m\
+    [0mxfer-signals.dox[28;5H[34h[?25h[29;5H[30;5H[56;1H
+[?1l>
+Suspended

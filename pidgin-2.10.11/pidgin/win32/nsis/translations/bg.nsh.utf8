@@ -1,0 +1,7 @@
+;; Auto generated file by create_nsis_translations.pl
+;; Code Page: WINDOWS-1251
+!define PIDGINSECTIONDESCRIPTION "Файлове на ядрото на Pidgin и библиотеки"
+!define PIDGINUNINSTALLERROR2 "Нямате права да деинсталирате тази програма."
+!define PIDGINUNINSTALLERROR1 "Деисталатоа не може да намери записи в регистъра за Pidgin.$\rВероятно е бил инсталиран от друг потребител."
+!define GTKSECTIONDESCRIPTION "Мултиплатфорен кит за графичен изглед, използван от Pidgin"
+!define PIDGINSECTIONTITLE "Pidgin Клиент за Бързи Съобщения (изисква се)"

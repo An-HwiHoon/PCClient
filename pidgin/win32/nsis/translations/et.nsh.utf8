@@ -1,0 +1,18 @@
+;; Auto generated file by create_nsis_translations.pl
+;; Code Page: WINDOWS-1257
+!define DEBUGSYMBOLSSECTIONTITLE "Debug sümbolid (pangestumistest teavitamiseks)"
+!define URIHANDLERSSECTIONTITLE "URI käsitlejad"
+!define PIDGINDESKTOPSHORTCUTDESC "Pidgini jaoks töölauaviida loomine"
+!define PIDGINSHORTCUTSSECTIONTITLE "Otseteed"
+!define PIDGINSPELLCHECKSECTIONDESCRIPTION "Õigekirjakontrolli tugi.  (Paigaldamiseks on vaja internetiühendust)"
+!define PIDGINDESKTOPSHORTCUTSECTIONTITLE "Töölaud"
+!define PIDGINUNINSTALLERROR2 "Sul pole õigust seda rakendust eemaldada."
+!define PIDGINFINISHVISITWEBSITE "Külasta Pidgini kodulehekülge"
+!define PIDGINSPELLCHECKSECTIONTITLE "Õigekirjakontrolli tugi"
+!define PIDGINSTARTMENUSHORTCUTDESC "Pidgini jaoks Start menüü kirje loomine"
+!define PIDGINSHORTCUTSSECTIONDESCRIPTION "Otseteed Pidgini käivituseks"
+!define PIDGINUNINSTALLERROR1 "Eemaldamisprogrammil pole võimalik Pidgini registrivõtmed leida.$\rPaistab sedamoodi, et selle rakenduse on paigaldanud mõni teine kasutaja."
+!define PIDGINLICENSEBUTTON "Järgmine >"
+!define PIDGINPROMPTCONTINUEWITHOUTUNINSTALL "Käesolevat Pidgini versiooni ei õnnestu eemaldada. Uus versioon paigaldatakse hetkel paigaldatud versiooni eemaldamiseta."
+!define PIDGINSTARTMENUSHORTCUTSECTIONTITLE "Start menüü"
+!define INSTALLERISRUNNING "Paigaldusprogramm juba töötab."

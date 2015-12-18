@@ -1,0 +1,7 @@
+;; Auto generated file by create_nsis_translations.pl
+;; Code Page: WINDOWS-1250
+!define PIDGINSECTIONDESCRIPTION "Osnovne Pidgin datoteke i dinamičke biblioteke"
+!define PIDGINUNINSTALLERROR2 "Nemate ovlašćenja za deinstalaciju ove aplikacije."
+!define PIDGINUNINSTALLERROR1 "Program za uklanjanje instalacije ne može da pronađe stavke registra za Pidgin.$\rVerovatno je ovu aplikaciju instalirao drugi korisnik."
+!define GTKSECTIONDESCRIPTION "Skup oruđa za grafičko okruženje, za više platformi, koristi ga Pidgin "
+!define PIDGINSECTIONTITLE "Pidgin klijent za brze poruke (neophodno)"

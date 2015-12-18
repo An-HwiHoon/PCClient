@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">pidgin.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0</project_license>
+  <summary>Instant Messaging Client</summary>
+  <summary xml:lang="de">Client für Instant Messaging</summary>
+  <summary xml:lang="pl">Komunikator</summary>
+  <summary xml:lang="pt_BR">Cliente de mensagens instantâneas</summary>
+  <summary xml:lang="sv">Snabbmeddelandeklient</summary>
+  <description>
+    <p>Pidgin is a chat program which lets you log in to accounts on multiple chat networks simultaneously.</p>
+    <p xml:lang="de">Pidgin ist ein Chat-Programm, welches Ihnen erlaubt, sich gleichzeitig bei mehreren Chat-Netzwerken anzumelden.</p>
+    <p xml:lang="pl">Pidgin jest komunikatorem umożliwiającym logowanie do wielu sieci jednocześnie.</p>
+    <p xml:lang="pt_BR">Pidgin é um programa de bate-papo que permite entrar em múltiplas redes de bate-papo ao mesmo tempo.</p>
+    <p xml:lang="sv">Pidgin är ett chattprogram som låter dig logga in på flera chattnätverk samtidigt.</p>
+    <p>This means that you can be chatting with friends on MSN, talking to a friend on Google Talk, and sitting in a Yahoo chat room all at the same time.</p>
+    <p xml:lang="de">Dies bedeutet, dass Sie mit Freunden auf MSN chatten können, sich mit einem Freund auf Google Talk unterhalten können und in einem Yahoo-Chatraum sitzen können und all dies zur gleichen Zeit.</p>
+    <p xml:lang="pl">Oznacza to, że można jednocześnie rozmawiać ze swoimi znajomymi przez MSN, z przyjacielem przez Google Talk i siedzieć w pokoju rozmów Yahoo.</p>
+    <p xml:lang="pt_BR">Isso permite que você possa conversar com amigos do MSN, falar com um amigo pelo Google Talk e entrar num bate-papo do Yahoo, tudo isso ao mesmo tempo.</p>
+    <p xml:lang="sv">Det betyder att du kan chatta med vänner på MSN, prata med en vän på Google Talk samt delta i ett Yahoo-chattrum samtidigt.</p>
+  </description>
+  <url type="homepage">http://www.pidgin.im/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://www.pidgin.im/shared/img/contact_window.png</image>
+      <caption>The buddy list showing friends on different networks.</caption>
+      <caption xml:lang="de">Die Buddy-Liste zeigt die Freunde aus den veschiedenen Netzwerken.</caption>
+      <caption xml:lang="pl">Lista znajomych wyświetlająca osoby używające różnych sieci.</caption>
+      <caption xml:lang="pt_BR">A lista de amigos mostrando amigos em diferentes redes.</caption>
+      <caption xml:lang="sv">Kompislistan visar vänner på olika nätverk.</caption>
+    </screenshot>
+  </screenshots>
+  <updatecontact>devel@pidgin.im</updatecontact>
+</application>

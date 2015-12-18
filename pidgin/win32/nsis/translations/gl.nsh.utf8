@@ -1,0 +1,10 @@
+;; Auto generated file by create_nsis_translations.pl
+;; Code Page: WINDOWS-1252
+!define PIDGINSECTIONTITLE "Cliente de mensaxería instantánea de Pidgin (necesario)"
+!define PIDGINSECTIONDESCRIPTION "Ficheiros e dlls principais de Core"
+!define PIDGINUNINSTALLERROR2 "Non ten permisos para desinstalar esta aplicación."
+!define PIDGINFINISHVISITWEBSITE "Visite a páxina Web de Pidgin"
+!define PIDGINUNINSTALLERROR1 "O desinstalador non puido atopar as entradas no rexistro de Pidgin.$\rÉ probable que outro usuario instalara a aplicación."
+!define PIDGINLICENSEBUTTON "Seguinte >"
+!define GTKSECTIONDESCRIPTION "Unha suite de ferramentas GUI multiplataforma, utilizada por Pidgin"
+!define PIDGINLICENSEBOTTOMTEXT "$(^Name) distribúese baixo a licencia GPL. Esta licencia inclúese aquí só con propósito informativo: $_CLICK"

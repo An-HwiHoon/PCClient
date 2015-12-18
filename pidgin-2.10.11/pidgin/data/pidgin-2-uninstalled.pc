@@ -1,0 +1,21 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+sysconfdir=${prefix}/etc
+
+abs_srcdir=/home/an/시작/pidgin-2.10.11.2.0완성/pidgin/data
+abs_builddir=/home/an/시작/pidgin-2.10.11.2.0완성/pidgin/data
+
+abs_top_srcdir=/home/an/시작/pidgin-2.10.11.2.0완성
+abs_top_builddir=/home/an/시작/pidgin-2.10.11.2.0완성
+
+plugindir=${libdir}/pidgin
+
+Name: Pidgin
+Description: Pidgin is a GTK2-based instant messenger application.
+Version: 2.10.11
+Requires: gtk+-2.0 purple
+Cflags: -I${abs_top_srcdir}

@@ -1,0 +1,105 @@
+[?25l[24m[0m[58;1H[97m[41mError detected while processing /home/anhh/.vimrc:[0m
+[38;5;130mline 1827:[0m
+[97m[41mE117: Unknown function: vundle#begin[0m
+[38;5;130mline 1832:[0m
+[97m[41mE492: Not an editor command: Plugin 'gmarik/Vundle.vim'[0m
+[38;5;130mline 1836:[0m
+[97m[41mE492: Not an editor command: Plugin 'tpope/vim-fugitive'[0m
+[38;5;130mline 1838:[0m
+[97m[41mE492: Not an editor command: Plugin 'L9'[0m
+[38;5;130mline 1840:[0m
+[97m[41mE492: Not an editor command: Plugin 'git://git.wincent.com/command-t.git'[0m
+[38;5;130mline 1845:[0m
+[97m[41mE492: Not an editor command: Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}[0m
+[38;5;130mline 1850:[0m
+[97m[41mE492: Not an editor command: Plugin 'davidhalter/jedi-vim'[0m
+[38;5;130mline 1851:[0m
+[97m[41mE492: Not an editor command: Plugin 'pythoncomplete'[0m
+[38;5;130mline 1853:[0m
+[97m[41mE492: Not an editor command: Plugin 'taglist-plus'[0m
+[38;5;130mline 1855:[0m
+[97m[41mE492: Not an editor command: Plugin 'ctrlp.vim'[0m
+[38;5;130mline 1856:[0m
+[97m[41mE492: Not an editor command: Plugin 'The-NERD-tree'[0m
+[38;5;130mline 1857:[0m
+[97m[41mE492: Not an editor command: Plugin 'Syntastic'[0m
+[38;5;130mline 1858:[0m
+[97m[41mE492: Not an editor command: Plugin 'EasyMotion'[0m
+[38;5;130mline 1860:[0m
+[97m[41mE492: Not an editor command: Plugin 'vimwiki'[0m
+[38;5;130mline 1861:[0m
+[97m[41mE492: Not an editor command: Plugin 'pydoc.vim'[0m
+[38;5;130mline 1862:[0m
+[97m[41mE492: Not an editor command: Plugin 'svnvimdiff'[0m
+[38;5;130mline 1863:[0m
+[97m[41mE492: Not an editor command: Plugin 'svn.vim'[0m
+[38;5;130mline 1864:[0m
+[97m[41mE492: Not an editor command: Plugin 'elinks.vim'[0m
+[38;5;130mline 1866:[0m
+[97m[41mE492: Not an editor command: Plugin 'TxtBrowser' [0m
+[38;5;130mline 1867:[0m
+[97m[41mE492: Not an editor command: Plugin 'svncommand.vim'[0m
+[38;5;130mline 1868:[0m
+[97m[41mE492: Not an editor command: Plugin 'webpreview'[0m
+[38;5;130mline 1869:[0m
+[97m[41mE492: Not an editor command: Plugin 'OmniCppComplete'[0m
+[38;5;130mline 1872:[0m
+[97m[41mE117: Unknown function: vundle#end[0m
+[32mPress ENTER or type command to continue[34h[?25h[?1h=[1;58r[34l[34h[?25h[23m[24m[0m[H[J[?25l[58;1H"./gtkconv.h" 313L, 8102C(1 of 845): * @see @ref gtkconv-signals[1;1H[94m[40m/**
+ * @file gtkconv.h GTK+ Conversation API
+ * @ingroup pidgin
+ * @see @ref gtkconv-signals
+ */
+
+/* pidgin
+ *
+ * Pidgin is the legal property of its developers, whose names are too numerous
+ * to list here.  Please refer to the COPYRIGHT file distributed with this
+ * source distribution.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version [0m[31m2[0m[94m[40m of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., [0m[31m51[0m[94m[40m Franklin Street, Fifth Floor, Boston, MA  [0m[35m0[0m[31m2111[0m[94m[40m-[0m[31m1301[0m[94m[40m  USA
+ */[0m
+[35m#ifndef _PIDGIN_CONVERSATION_H_
+#define _PIDGIN_CONVERSATION_H_[0m
+
+[32mtypedef[0m [32mstruct[0m _PidginImPane[7CPidginImPane;
+[32mtypedef[0m [32mstruct[0m _PidginChatPane     PidginChatPane;
+[32mtypedef[0m [32mstruct[0m _PidginConversation PidginConversation;
+
+[94m[40m/**
+ * Unseen text states.
+ */[0m
+[32mtypedef[0m [32menum[0m
+{
+    PIDGIN_UNSEEN_NONE,   [94m[40m/**< No unseen text in the conversation. */[0m
+    PIDGIN_UNSEEN_EVENT,  [94m[40m/**< Unseen events in the conversation.  */[0m
+    PIDGIN_UNSEEN_NO_LOG, [94m[40m/**< Unseen text with NO_LOG flag.       */[0m
+    PIDGIN_UNSEEN_TEXT,   [94m[40m/**< Unseen text in the conversation.    */[0m
+    PIDGIN_UNSEEN_NICK    [94m[40m/**< Unseen text and the nick was said.  */[0m
+} PidginUnseenState;
+
+[32menum[0m {
+    CHAT_USERS_ICON_COLUMN,
+    CHAT_USERS_ALIAS_COLUMN,
+    CHAT_USERS_ALIAS_KEY_COLUMN,
+    CHAT_USERS_NAME_COLUMN,
+    CHAT_USERS_FLAGS_COLUMN,
+    CHAT_USERS_COLOR_COLUMN,
+    CHAT_USERS_WEIGHT_COLUMN,
+    CHAT_USERS_ICON_STOCK_COLUMN,   [94m[40m/** @since [0m[31m2.6.0[0m[94m[40m */[0m
+    CHAT_USERS_COLUMNS
+};[4;2H[34h[?25h[58;1H
+[?1l>
+Suspended
